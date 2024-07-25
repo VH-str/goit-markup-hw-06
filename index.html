@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- <header class="header-border">
+    <header class="header-border">
       <div class="container header-container">
         <nav class="header-navig">
           <a class="logo-text" href="./index.html"
@@ -52,8 +52,81 @@
             </li>
           </ul>
         </address>
+        <button class="rodzerz-btn" type="button" data-menu-open>
+          <svg class="rodzerz-icon" width="24" height="24">
+            <use href="./images/icons.svg#hedbtn"></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
+      <div class="mob-menu" data-menu>
+        <div class="container mob-menu-container">
+          <button class="modal-menu-button" type="button" data-menu-close>
+            <svg class="ico-menu-btn" width="8" height="8">
+              <use href="./images/icons.svg#xrest"></use>
+            </svg>
+          </button>
+          <nav class="mob-menu-nav">
+            <ul class="nav-menu-text">
+              <li class="nav-text-item">
+                <a href="./index.html" class="nav-text-link-menu ntx">Studio</a>
+              </li>
+              <li class="nav-text-item">
+                <a href="" class="nav-text-link-menu">Portfolio</a>
+              </li>
+              <li class="nav-text-item">
+                <a href="" class="nav-text-link-menu">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="address-menu">
+            <ul class="address-text-menu">
+              <li class="address-text-item">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="address-text-link-menu"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="address-text-item">
+                <a href="tel:+380731111111" class="address-text-link-menu"
+                  >+38 (073) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="sosic">
+            <li class="sosico">
+              <a class="icon" href="https://www.instagram.com/" target="_blank">
+                <svg class="iconz" width="16" height="16">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="sosico">
+              <a class="icon" href="https://https://x.com/" target="_blank">
+                <svg class="iconz" width="16" height="16">
+                  <use href="./images/icons.svg#x"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="sosico">
+              <a class="icon" href="https://www.facebook.com/" target="_blank">
+                <svg class="iconz" width="16" height="16">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="sosico">
+              <a class="icon" href="https://ua.linkedin.com/" target="_blank">
+                <svg class="iconz" width="16" height="16">
+                  <use href="./images/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
     <main class="main">
       <!-- <section class="main-text">
         <div class="container main-text-container">
@@ -643,5 +716,6 @@
       </div>
     </div> -->
     <!-- <script src="./js/modal.js"></script> -->
+    <script src="./js/menu.js"></script>
   </body>
 </html>
