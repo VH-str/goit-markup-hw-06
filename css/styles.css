@@ -979,7 +979,6 @@ input:checked + .check-box-label .check-box-label-span {
 .nav-text-link-menu {
   position: relative;
   display: block;
-  padding: 24px 0;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -1033,7 +1032,7 @@ input:checked + .check-box-label .check-box-label-span {
 
 .address-text-link-menu {
   display: block;
-  padding: 0px 0;
+  padding-bottom: 48px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -1043,10 +1042,15 @@ input:checked + .check-box-label .check-box-label-span {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address-text-link:hover,
-.address-text-link:focus {
+.address-text-link-menu:hover,
+.address-text-link-menu:focus {
   color: #404bbf;
 }
+
+.address-text-link-menu.ktk {
+  color: #404bbf;
+}
+
 /* mobile menu - adress down*/
 
 /* kosmonaut */
