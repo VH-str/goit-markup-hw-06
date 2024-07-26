@@ -981,7 +981,7 @@ input:checked + .check-box-label .check-box-label-span {
 }
 
 .footer-text {
-  max-width: 264px;
+  max-width: 288px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -1062,6 +1062,7 @@ input:checked + .check-box-label .check-box-label-span {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 24px;
 }
 
 .order-form-label {
@@ -1311,6 +1312,10 @@ input::placeholder {
   .text-logo-fut {
     display: inline-block;
   }
+
+  /* .footer-text {
+    max-width: 288px;
+  } */
   .socia-me {
     display: inline-block;
   }
@@ -1326,6 +1331,14 @@ input::placeholder {
 
   .subscribe-text {
     display: inline-block;
+  }
+
+  .footer-text {
+    max-width: 288px;
+  }
+
+  .input-label {
+    width: 264px;
   }
   .order-form {
     display: flex;
@@ -1347,7 +1360,28 @@ input::placeholder {
 
   /* Futer */
   .text-logo-fut {
-    margin-bottom: 18px;
+    margin-bottom: 16px;
+  }
+
+  .footer-text {
+    max-width: 264px;
+  }
+  .fut-co {
+    margin-right: 120px;
+  }
+
+  .fut-co {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .footer-body {
+    background: #2e2f42;
+    padding: 100px 0;
+  }
+
+  .subscribe {
+    margin-left: auto;
   }
 
   /* header */
