@@ -1384,24 +1384,3 @@ input:checked + .check-box-label .check-box-label-span {
     cursor: pointer;
   }
 }
-<picture>
-<source
-srcset="./images/app.jpg 1x, 
-./images/app-2x.jpg 2x"
-media="(min-width:1158px)"
-/>
-<source
-srcset="./images/app-p.jpg 1x, ./images/app-p-2x.jpg 2x"
-media="(min-width:768px)"
-/>
-<source
-srcset="./images/app-mob.jpg 1x, ./images/app-mob-2x.jpg 2x"
-media="(max-width:767px)"
-/>
-<img
-src="./images/app.jpg"
-width="360"
-height="300"
-alt="Banking App"
-/>
-</picture>
