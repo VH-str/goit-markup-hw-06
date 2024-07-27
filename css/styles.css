@@ -281,7 +281,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/dark-bg-mob.jpg);
+    url("../images/dark-bg-mob.jpg");
   max-width: 320px;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1096,7 +1096,7 @@ input:checked + .check-box-label .check-box-label-span {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/dark-bg.jpg);
+      url("../images/dark-bg.jpg");
     max-width: 768px;
   }
 
@@ -1287,7 +1287,7 @@ input:checked + .check-box-label .check-box-label-span {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office.jpg);
+      url("../images/people-office.jpg");
     max-width: 1440px;
   }
 
