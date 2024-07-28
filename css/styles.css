@@ -98,7 +98,7 @@ img {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(46, 47, 66, 0.4);
+  background-color: #fff;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   opacity: 0;
@@ -113,15 +113,17 @@ img {
 }
 
 .mob-menu-container {
-  position: absolute;
-  top: 50%;
+  position: relative;
+  /* position: absolute; */
+  /* top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
   width: 408px;
   min-height: 584px;
-  background: #fcfcfc;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  /* background: #fcfcfc; */
+  /* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2); */
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 72px 16px 40px 16px;
@@ -236,7 +238,7 @@ img {
 }
 
 .address-text-link-menu {
-  padding-bottom: 48px;
+  font-style: normal;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -260,6 +262,7 @@ img {
   justify-content: center;
   gap: 40px;
 }
+
 /* mobile menu - adress down*/
 /* HiroW section */
 .main-text-container {
@@ -389,6 +392,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .main-listt-p {
@@ -601,6 +605,7 @@ img {
 
 .fut-co {
   margin: auto;
+  margin-bottom: 72px;
 }
 
 .footer-body {
@@ -630,7 +635,6 @@ img {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  margin-bottom: 72px;
 }
 
 .span-logo-fut {
@@ -639,6 +643,7 @@ img {
 
 .cosial-content {
   margin: auto;
+  margin-bottom: 72px;
 }
 .socia-me {
   font-weight: 500;
@@ -662,7 +667,6 @@ img {
 .sosico-fut {
   width: 40px;
   height: 40px;
-  margin-bottom: 72px;
 }
 
 .icon-fut {
@@ -1141,6 +1145,10 @@ input:checked + .check-box-label .check-box-label-span {
   .main-listt {
     gap: 72px 24px;
   }
+
+  .main-listt-hedthree {
+    text-align: left;
+  }
   /* our team 4 foto */
   /* .main-form-container .container {
     max-width: 584px;
@@ -1178,23 +1186,25 @@ input:checked + .check-box-label .check-box-label-span {
     align-items: baseline;
     padding-left: 108px;
     padding-right: 108px;
+    gap: 72px 24px;
   }
   .fut-co {
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 0px;
   }
   .text-logo-fut {
     display: inline-block;
   }
 
-  /* .footer-text {
-    max-width: 288px;
-  } */
+  .footer-text {
+    max-width: 264px;
+  }
   .socia-me {
     display: inline-block;
   }
   .cosial-content {
-    margin-left: auto;
+    margin-left: 0;
     margin-right: 0;
     margin-top: 0;
     margin-bottom: 0;
@@ -1207,20 +1217,19 @@ input:checked + .check-box-label .check-box-label-span {
     display: inline-block;
   }
 
-  .footer-text {
-    max-width: 288px;
-  }
-
   .input-label {
     width: 264px;
   }
   .order-form {
     display: flex;
     flex-direction: row;
-    row-gap: 24px;
   }
   .submit-btn {
     margin: 0;
+  }
+
+  .input-label {
+    margin-bottom: 0px;
   }
 }
 
@@ -1228,8 +1237,8 @@ input:checked + .check-box-label .check-box-label-span {
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
+    margin: 0 auto;
   }
 
   /* Futer */
@@ -1241,13 +1250,12 @@ input:checked + .check-box-label .check-box-label-span {
     max-width: 264px;
     margin-bottom: 0px;
   }
+
+  .fut-conta {
+    gap: 0px;
+  }
   .fut-co {
     margin-right: 120px;
-  }
-
-  .fut-co {
-    margin-left: 0;
-    margin-right: 0;
   }
 
   .footer-body {
