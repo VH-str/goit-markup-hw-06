@@ -796,7 +796,7 @@ input::placeholder {
   position: relative;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -20%);
+  transform: translate(-50%, -1%);
   width: 288px;
   min-height: 623px;
   background: #fcfcfc;
