@@ -104,6 +104,7 @@ img {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  overflow: auto;
 }
 
 .mob-menu.is-open {
